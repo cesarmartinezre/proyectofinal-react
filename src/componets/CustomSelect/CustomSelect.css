@@ -1,0 +1,41 @@
+.selectWrapper{
+  position: relative;
+  display: flex;
+  width: 200px;
+  user-select: none;
+  cursor: pointer;
+}
+.selectedOption{
+  background-color: #6aa3b4;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.icon{
+  margin-left: 10px;
+  pointer-events: none;
+  color: white;
+}
+.optionsList{
+  width: 200px;
+  position: absolute;
+  top: calc(100% - 5px);
+  left: 0px;
+  background-color: #6aa3b4;
+  border: none;
+  border-radius: 0 0 4px 4px;
+  z-index: 1000;
+}
+.option{
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+.option:hover{
+  color: #e4fff9;
+}

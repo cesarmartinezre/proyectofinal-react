@@ -1,0 +1,11 @@
+.ordercontainer{
+  width: 60%;
+  background-color: #6aa3b4;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.order{
+  color: white;
+  padding: 10px;
+}

@@ -1,0 +1,30 @@
+.cartcontainer{
+  display: flex;
+  height: 100vh;
+  margin: 20px;
+  align-items: start;
+}
+.itemcartcontainer{
+  width: 60%;
+}
+.Total{
+  width: 40%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #6aa3b4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+}
+.Total p{
+  color: white;
+}
+.Total button{
+  background-color: white;
+  color: #00c6ab;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
